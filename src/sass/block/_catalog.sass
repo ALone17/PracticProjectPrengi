@@ -1,0 +1,61 @@
+.catalog
+    min-height: 889px
+    background: url('../img/background_carusel.jpg') center (center/cover) no-repeat
+    padding: 79px 0px 61px 0px
+    &__carusel
+        margin-top: 36px
+        justify-content: center 
+        padding-left: 95px
+    &__title
+        font-size: 30px
+        font-weight: 900
+        color: #ffffff
+        text-align: center
+    &__prengi
+        width: 843px
+        height: 64px
+        border: 1px solid #ffffff  
+        border-radius: 4px
+        display: flex
+        justify-content: space-between
+        margin: 25px auto  
+        padding: 0 33px
+        a
+            margin-top: 26px
+            font-size: 14px
+            display: flex
+            line-height: 14px
+            font-weight: 400
+            color: #ffffff
+            text-decoration: none
+            &:hover
+                color:#00c2f0
+                font-weight: 700
+            &:nth-child(-n+5)
+                &:after
+                    content: ''
+                    display: block
+                    height: 50px
+                    width: 1px
+                    margin-top: -19px
+                    margin-left: 26px
+                    background-color: #9dacb1   
+                           
+.slick-prev
+    background-color: unset
+    border: none
+    position: absolute
+    top: 235px
+    left: 0
+    &:focus
+        outline: none
+
+.slick-next
+    display: block
+    position: absolute
+    background-color: unset
+    border: none
+    top: 235px
+    right: 0   
+    &:focus
+        outline: none             
