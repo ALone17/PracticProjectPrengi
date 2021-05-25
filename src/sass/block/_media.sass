@@ -280,18 +280,108 @@
 			font-size: 20px
 			line-height: 25px	
 	.footer
+		position: relative
 		padding: 20px 0
+		min-height: 185px
 		&__lists
+			margin-top: 70px
 			flex-wrap: wrap
-			justify-content: space-around																	
+			justify-content: space-around
+		&__text
+			display: none																		
 		&_list
 			max-width: 220px
 			padding: 11px
 		&__copyright
 			margin-top: 10px
 		.divaider
-			margin-top: 0						
+			margin-top: 0
+		&__modul_list
+			display: none
+		&__industries_list
+			display: none
+		&__about_list
+			display: none	
+		&_logo
+			position: absolute
+			top: 0
+			left: 50%
+			transform: translateX(-50%)
+			margin-top: 15px									
                 
+@media (max-width: 575px)
+	.contacts
+		display: none
+	.main
+		background-position-x: right
+		min-height: 570px
+		&__title
+			text-align: center
+			margin-top: 150px
+		&__subtitle
+			text-align: center	
+		&__nav_mod
+			width: 80%
+			text-align: center
+	.btn
+		display: block
+		margin: 70px auto			
+	.solution
+		&__blocks
+			flex-wrap: wrap
+			justify-content: center
+		&__window
+			width: 300px
+			height: 240px
+			margin-top: 15px
+		&__text
+			margin-top: 180px
+			font-size: 15px
+			line-height: 15px
+	.catalog
+		min-height: 550px
+		&__prengi
+			flex-wrap: wrap
+			justify-content: space-around
+			height: 119px
+			margin-top: 30px
+		&__title
+			font-size: 13px
+			line-height: 16px
+		&__carusel
+			margin-top: 50px						
+	.advantages
+		&__block
+			min-width: 300px
+			min-height: 200px
+			max-width: 300px
+			max-height: 200px
+		&__sub
+			margin-top: 75px
+			height: 80px
+			padding: 0
+		&__text
+			font-size: 15px
+			padding-top: 0
+			top: 25px
+	.placement
+		min-height: 590px
+		&__img
+			width: 100%
+			min-height: 295px
+			&_2
+				left: 0%
+				top: 295px
+		&__blocks
+			flex-wrap: wrap
+			margin-left: 0
+		&__data
+			&_2
+				margin-top: 160px
+	.connect
+		img
+			width: 80%
+			height: 50%									
 
                   	
 
